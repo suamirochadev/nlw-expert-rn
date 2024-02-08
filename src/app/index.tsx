@@ -23,6 +23,7 @@ export default function Home() {
         itemIndex: 0,
       });
     }
+  }
     return (
       <View className="flex-1 pt-8">
         <Header title="Faça seu pedido" cartQuantityItems={2} />
@@ -65,4 +66,3 @@ export default function Home() {
       </View>
     )
   }
-}
